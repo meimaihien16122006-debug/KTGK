@@ -1,0 +1,98 @@
+﻿================================================================================
+                   FDT AGENT - LOCAL GIT COMMIT LOG HISTORY                     
+================================================================================
+ExportedAt: 2026-11-09 07:38:35 UTC
+
+--- CONTRIBUTORS SUMMARY ---
+4	ĐOÀN THỊ MAI HIỀN (2415053122217) <2415053122217@fdt.ute.udn.vn>
+
+--- MACHINE READABLE COMMITS ---
+COMMIT_ROW|57cae9ffb2240192e311d233dcc16e5daf34bfd7|57cae9f|ĐOÀN THỊ MAI HIỀN (2415053122217)|2415053122217@fdt.ute.udn.vn|ĐOÀN THỊ MAI HIỀN (2415053122217)|2415053122217@fdt.ute.udn.vn|2026-11-09T14:30:47+07:00|Khoi tao
+COMMIT_ROW|1f65d5da823965a41a47064de3fba0d193dd00fe|1f65d5d|ĐOÀN THỊ MAI HIỀN (2415053122217)|2415053122217@fdt.ute.udn.vn|ĐOÀN THỊ MAI HIỀN (2415053122217)|2415053122217@fdt.ute.udn.vn|2026-11-09T14:29:17+07:00|FDT Agent Autosave [14:29:17]: Tự động sao lưu tiến độ làm bài định kỳ
+COMMIT_ROW|d367e17abfcd7f946aa9e5286184d828589195d8|d367e17|ĐOÀN THỊ MAI HIỀN (2415053122217)|2415053122217@fdt.ute.udn.vn|ĐOÀN THỊ MAI HIỀN (2415053122217)|2415053122217@fdt.ute.udn.vn|2026-11-09T13:27:01+07:00|Khoi tao du an
+COMMIT_ROW|d0e473a440981261eea6fdb47c02741b66e61265|d0e473a|ĐOÀN THỊ MAI HIỀN (2415053122217)|2415053122217@fdt.ute.udn.vn|ĐOÀN THỊ MAI HIỀN (2415053122217)|2415053122217@fdt.ute.udn.vn|2026-11-09T13:22:13+07:00|FDT Agent: Initialized local project repository
+
+--- DETAILED COMMIT HISTORY WITH FILE STATS ---
+commit 57cae9ffb2240192e311d233dcc16e5daf34bfd7
+Author:     ĐOÀN THỊ MAI HIỀN (2415053122217) <2415053122217@fdt.ute.udn.vn>
+AuthorDate: Mon Nov 9 14:30:47 2026 +0700
+Commit:     ĐOÀN THỊ MAI HIỀN (2415053122217) <2415053122217@fdt.ute.udn.vn>
+CommitDate: Mon Nov 9 14:30:47 2026 +0700
+
+    Khoi tao
+
+ .../udn/ute/week08/s2415053122217/MainActivity.kt  | 60 ++++++++++++++--
+ app/src/main/res/layout/activity_main.xml          | 83 ++++++++++++++++++----
+ 2 files changed, 125 insertions(+), 18 deletions(-)
+
+commit 1f65d5da823965a41a47064de3fba0d193dd00fe
+Author:     ĐOÀN THỊ MAI HIỀN (2415053122217) <2415053122217@fdt.ute.udn.vn>
+AuthorDate: Mon Nov 9 14:29:17 2026 +0700
+Commit:     ĐOÀN THỊ MAI HIỀN (2415053122217) <2415053122217@fdt.ute.udn.vn>
+CommitDate: Mon Nov 9 14:29:17 2026 +0700
+
+    FDT Agent Autosave [14:29:17]: Tự động sao lưu tiến độ làm bài định kỳ
+
+ .../udn/ute/week08/s2415053122217/MainActivity.kt  | 60 ++++++++++++++--
+ app/src/main/res/layout/activity_main.xml          | 83 ++++++++++++++++++----
+ 2 files changed, 125 insertions(+), 18 deletions(-)
+
+commit d367e17abfcd7f946aa9e5286184d828589195d8
+Author:     ĐOÀN THỊ MAI HIỀN (2415053122217) <2415053122217@fdt.ute.udn.vn>
+AuthorDate: Mon Nov 9 13:27:01 2026 +0700
+Commit:     ĐOÀN THỊ MAI HIỀN (2415053122217) <2415053122217@fdt.ute.udn.vn>
+CommitDate: Mon Nov 9 13:27:01 2026 +0700
+
+    Khoi tao du an
+
+ app/.gitignore                                     |   1 +
+ app/build.gradle.kts                               |  43 ++++
+ .../s2415053122217/ExampleInstrumentedTest.kt      |  24 ++
+ app/src/main/AndroidManifest.xml                   |  26 +++
+ .../udn/ute/week08/s2415053122217/MainActivity.kt  |  20 ++
+ app/src/main/keepRules/rules.keep                  |  12 +
+ .../main/res/drawable/ic_launcher_background.xml   | 170 ++++++++++++++
+ .../main/res/drawable/ic_launcher_foreground.xml   |  30 +++
+ app/src/main/res/layout/activity_main.xml          |  19 ++
+ app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   6 +
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   6 +
+ app/src/main/res/mipmap-hdpi/ic_launcher.webp      | Bin 0 -> 1404 bytes
+ .../main/res/mipmap-hdpi/ic_launcher_round.webp    | Bin 0 -> 2898 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher.webp      | Bin 0 -> 982 bytes
+ .../main/res/mipmap-mdpi/ic_launcher_round.webp    | Bin 0 -> 1772 bytes
+ app/src/main/res/mipmap-xhdpi/ic_launcher.webp     | Bin 0 -> 1900 bytes
+ .../main/res/mipmap-xhdpi/ic_launcher_round.webp   | Bin 0 -> 3918 bytes
+ app/src/main/res/mipmap-xxhdpi/ic_launcher.webp    | Bin 0 -> 2884 bytes
+ .../main/res/mipmap-xxhdpi/ic_launcher_round.webp  | Bin 0 -> 5914 bytes
+ app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp   | Bin 0 -> 3844 bytes
+ .../main/res/mipmap-xxxhdpi/ic_launcher_round.webp | Bin 0 -> 7778 bytes
+ app/src/main/res/values-night/themes.xml           |   7 +
+ app/src/main/res/values/colors.xml                 |   5 +
+ app/src/main/res/values/strings.xml                |   3 +
+ app/src/main/res/values/themes.xml                 |   9 +
+ app/src/main/res/xml/backup_rules.xml              |  13 ++
+ app/src/main/res/xml/data_extraction_rules.xml     |  19 ++
+ .../ute/week08/s2415053122217/ExampleUnitTest.kt   |  17 ++
+ build.gradle.kts                                   |   4 +
+ gradle.properties                                  |  19 ++
+ gradle/gradle-daemon-jvm.properties                |  12 +
+ gradle/libs.versions.toml                          |  24 ++
+ gradle/wrapper/gradle-wrapper.jar                  | Bin 0 -> 45457 bytes
+ gradle/wrapper/gradle-wrapper.properties           |   9 +
+ gradlew                                            | 251 +++++++++++++++++++++
+ gradlew.bat                                        |  94 ++++++++
+ local.properties                                   |  10 +
+ settings.gradle.kts                                |  26 +++
+ 38 files changed, 879 insertions(+)
+
+commit d0e473a440981261eea6fdb47c02741b66e61265
+Author:     ĐOÀN THỊ MAI HIỀN (2415053122217) <2415053122217@fdt.ute.udn.vn>
+AuthorDate: Mon Nov 9 13:22:13 2026 +0700
+Commit:     ĐOÀN THỊ MAI HIỀN (2415053122217) <2415053122217@fdt.ute.udn.vn>
+CommitDate: Mon Nov 9 13:22:13 2026 +0700
+
+    FDT Agent: Initialized local project repository
+
+ .gitignore | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
